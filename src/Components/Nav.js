@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
+import logo from '../images/logo.PNG';
 
 const Navstyle= styled.div`
 
@@ -9,7 +10,7 @@ const Navstyle= styled.div`
     height:50px;
     background:#0771a6;
     display:flex;
-     justify-content:center;
+     
      
     p{
         font-size:13px;
@@ -31,6 +32,14 @@ const Navstyle= styled.div`
     align-items:center;
     flex-wrap:wrap;
    .logo{
+       width:80px;
+       height:70px;
+
+       img{
+        
+           height:100%;
+           object-fit:cover;
+       }
         flex:1;
         text-align:center;
         h1{
@@ -73,7 +82,7 @@ function Nav() {
         </div>
         <div className='bottomNav'>
         <div className='logo'>
-         <h1>M-MOTORS</h1>
+         <img src={logo} alt='logo'/>
 
           </div>
        <div className='navWrapper'>

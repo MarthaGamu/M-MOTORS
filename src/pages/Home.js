@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from '../Components/Nav';
+import HomeFirst from '../Components/Homefirst';
 import About from '../Components/About';
 import EnquireBanner from '../Components/EnquireBanner';
 import ImageBanner from '../Components/ImageBanner';
@@ -13,9 +14,12 @@ function Home() {
         <div>
            <Nav/>
            <ImageBanner image={mechanic}/>
-           <ServiceBanner/>
-           <About/>
-           <EnquireBanner/>
+           <HomeFirst/>
+
+        
+
+
+           
            <Footer/>
             
         </div>

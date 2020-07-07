@@ -28,7 +28,7 @@ line-height:1.8;
     background:#f4f4f4;
 .contentWrapper{
     width:95vw;
-    height:800px;
+    height:700px;
     margin:auto;
     color:#5d6873;
 
@@ -46,6 +46,7 @@ line-height:1.8;
     .secondQuote{
         display:flex;
         align-items:center;
+        padding:10px;
        
     }
    .Quote{
