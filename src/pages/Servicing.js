@@ -21,6 +21,7 @@ function Servicing() {
       }
       .contentContainer{
           color:#4c4c4c;
+          background:#f4f4f4;
           p{
               margin-left:10px;
 
@@ -93,6 +94,11 @@ function Servicing() {
                   letter-spacing:0.5px;
               }
       }
+      @media only screen and (max-width: 600px) {
+        .contentContainer{
+            display:none;
+        }
+    }
     `;
     return (
         <div>

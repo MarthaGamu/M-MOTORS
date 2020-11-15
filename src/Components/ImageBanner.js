@@ -17,7 +17,7 @@ url(${props=>props.image});
 background-repeat:no-repeat;
 
 background-size:cover;
-object-fit:contain;
+object-fit:cover;
 .innerHeading{
     width:500px;
     height:100px;
